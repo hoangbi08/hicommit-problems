@@ -4,7 +4,7 @@ int main()
 {
 	int a, b, c;
 	
-	// nhap hai so nguyen
+	// nhap ba so nguyen
 	printf("nhap so nguyen thu nhat (a): ");
 	scanf("%d", &a);
 	
@@ -15,12 +15,13 @@ int main()
     scanf("%d", &c);
   
 	//if else ba san free fire cong dong tv
-	if (a > b) {
+	if (a > b > c) {
 	    printf("so lon hon la: %d\n", a);
 	}else if (b > a) {
 	    printf("so nho hon la: %d\n", b);
-	}else{
+	}else if (c > b) {}
 	    printf("'hai so bang nhau\n");
     }
+}
 	return 0;
 }
