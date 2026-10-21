@@ -1,27 +1,22 @@
 #include <stdio.h>
 
-int main()
-{
-	int a, b, c;
-	
-	// nhap ba so nguyen
-	printf("nhap so nguyen thu nhat (a): ");
-	scanf("%d", &a);
-	
-	printf("nhap so nguyen thu hai(b): ");
-	scanf("%d", &b);
-  
-    printf("nhao so nguyen thu ba(c): ");
-    scanf("%d", &c);
-  
-	//if else ba san free fire cong dong tv
-	if (a > b > c) {
-	    printf("so lon hon la: %d\n", a);
-	}else if (b > a) {
-	    printf("so nho hon la: %d\n", b);
-	}else if (c > b) {}
-	    printf("'hai so bang nhau\n");
+int main() {
+    long long a, b, c;
+
+    // Nhập ba số nguyên a, b, c
+    if (scanf("%lld %lld %lld", &a, &b, &c) == 3) {
+        long long max = a;
+
+        if (b > max) {
+            max = b;
+        }
+        if (c > max) {
+            max = c;
+        }
+
+        // Xuất số lớn nhất
+        printf("%lld\n", max);
     }
-}
-	return 0;
+
+    return 0;
 }
