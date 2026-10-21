@@ -4,10 +4,10 @@ int main() {
   int n;
   scanf("%d", &n);
 
-  if (n % 2==0){
-    printf("chan");
+  if (n % 2 == 0){
+     printf("chan");
   } else {
-    printf("le");
+     printf("le");
   }
   
   return 0;
