@@ -1,25 +1,18 @@
 #include <stdio.h>
+
 int main() {
-    float nhietDo;
+  int t;
+  scanf("%d", &t);
 
-    cout ("Nhap nhiet do: ");
-    cin ("nhietDo:);
+  if (t <=15) {
+      printf("LANH");
+  } else if (t < 25) {
+      printf("MAT");
+  } else if (t < 35) {
+      printf("NONG");
+  } else {
+      printf("RAT_NONG");
+  }
 
-    if (nhietDo < 0) {
-        cout ("Troi lanh dong bang");
-    } 
-    else if (nhietDo < 15) {
-        cout ("Troi lanh");
-    } 
-    else if (nhietDo < 25) {
-        cout ("Troi mat");
-    } 
-    else if (nhietDo < 35) {
-        cout ("Troi nong");
-    } 
-    else {
-        cout ("Troi rat nong");
-    }
-
-    return 0;
+  return 0;
 }
