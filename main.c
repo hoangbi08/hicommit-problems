@@ -2,13 +2,12 @@
 
 int main() {
   int n;
-  scanf("%d", &n);
+  scanf("%d",&n);
 
-  if (n % 2 == 0){
-     printf("chan");
-  } else {
-     printf("le");
+  if(n % 2==0){
+     printf("CHAN");
+  }else{
+     printf("LE");
   }
-  
   return 0;
 }
