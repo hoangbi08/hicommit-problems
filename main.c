@@ -1,9 +1,8 @@
 #include <stdio.h>
 
 int main() {
-  int XEP LOAI=1;
-  scanf("%d", &n);
-  switch(XEP LOAI) {
+  int xeploai=4;
+  switch(xeploai) {
     case 1:
       printf("XEP_LOAI_XUAT_SAC"); break;
     case 2:
