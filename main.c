@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-  int xeploai=4;
+  int xeploai=5;
   switch(xeploai) {
     case 1:
       printf("XEP_LOAI_XUAT_SAC"); break;
@@ -12,7 +12,7 @@ int main() {
     case 4:
       printf("XEP_LOAI_TRUNG_BINH"); break;
     defaulf:
-      printf("KHONG HOP LE");
+      printf("KHONG_HOP_LE"); 
   }
   return 0;
 }
